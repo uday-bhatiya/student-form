@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(34, 232, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reg-container{
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+.reg-container h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.reg-container h2::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 3px;
+    width: 20%;
+    background-color: #e65b00;
+    border-radius: 2px;
+}
+.three-details-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+hr{
+    width: 70%;
+    height: 1px;
+    background-color: #d2d2d2;
+    margin: 1rem 0;
+    border: none;
+}
+.personal-details,
+.identity-details{
+    margin: .2rem 0;
+}
+.personal-details label,
+.identity-details label{
+    margin: .5rem 1rem;
+    font-size: .9rem;
+    font-weight: 600;
+}
+.three-details-item input{
+    outline: none;
+    font-size: .8rem;
+    border-radius: .2rem;
+    border: 1px solid rgb(113, 101, 101);
+    padding: .1rem;
+    background-color: transparent;
+}
+.submit-btn{
+    border: none;
+    background-color: #e65b00;
+    color: white;
+    padding: .3rem 1rem;
+    display: block;
+    width: 50%;
+    margin: .6rem auto;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+}
